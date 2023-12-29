@@ -31,16 +31,4 @@
         <field name="view_mode">form</field>
         <field name="target">new</field>
     </record>
-
-    <menuitem id="task_manager.task_wizards_menu"
-              name="Report"
-              parent="task_manager.menu_root"
-              sequence="3"
-    />
-    <menuitem id="task_manager.task_report_menu"
-              action="task_manager.task_manager_wizard_action"
-              name="Task Report"
-              parent="task_manager.task_wizards_menu"
-              sequence="1"
-    />
 </odoo>
